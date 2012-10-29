@@ -1,11 +1,11 @@
 {"botinfo":
-	{"auth":"auth+live+#####",
-	"userid":"#####",
-	"botname":"meow"},
-"roomid":"4f1e02590c4cc807574030f1",
-"admin":"#####",
+	{"auth":"auth+live+LryxXvVGOAHKfNKtwaRNUlQP",
+	"userid":"50874b1feb35c174010000da",
+	"botname":"3Gen"},
+"roomid":"4e29cefc14169c27bf255fad",
+"admin":"50874b1feb35c174010000da",
 "database":
-	{"usedb":true,
+	{"usedb":false,
 	"dbname":"nodejs_mysql_treehouse", 
     "logchat":false,
 	"tablenames": 
@@ -15,22 +15,22 @@
 		"banned": "BANNEDUSERS",
 		"holiday": "HOLIDAY_GREETINGS"},
 	"login":{
-		"user":"#####",
-		"password":"#####",
+		"user":"tommyspwn@aol.com",
+		"password":"ktholmes",
         "host": "localhost"}},
 "lastfm":
-	{"useapi":true,
+	{"useapi":false,
 	"lastfmkey":"#####"},
 "http":
-    {"usehttp": true,
+    {"usehttp":false,
     "port": 8181,
     "host": "localhost"},
 "responses":
 	{"respond":true,
-    "announcebonus":true,
-	"reportsongstats":true,
+    "announcebonus":false,
+	"reportsongstats":false,
 	"welcomeusers":true,
-    "welcomepm":true,
+    "welcomepm":false,
     "alwayspm":false,
     "pmgreet": "Welcome to Indie/Classic Alternative 1 & Done! No queue, fastest finger, play one song and step down. Full rules at http://tinyurl.com/63hr2jl . Type 'commands' to see a list of commands I can respond to.",
 	"greeting":"Welcome, ",
@@ -43,7 +43,7 @@
 "consolelog":false,
 "bonusvote":"VOTE",
 "enforcement":
-	{"enforceroom":true,
+	{"enforceroom":false,
     "waitlist":false,
 	"songstoplay":2,
 	"stepuprules":
