@@ -71,7 +71,7 @@ global.currentsong = {
 
 bot.on('ready', events.readyEventHandler);
 
-bot.on('roomChanged', events.roomChangedEventHandler);
+bot.on('roomChanged', function (data) { console.log('The bot has changed room.', data); });
 
 bot.on('update_votes', events.updateVoteEventHandler);
 
